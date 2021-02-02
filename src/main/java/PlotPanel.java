@@ -4,13 +4,13 @@ class PlotPanel extends Panel {
     public Plotter G;
 
     class Plotter{
-        protected final double Xmin=0;
-        protected double Xmax;
-        protected double Ymin=0;
-        protected double Ymax=1.0;
-        protected boolean status;
-        protected Color clr;
-        protected Color gClr;
+        private final double Xmin=0;
+        private double Xmax;
+        private double Ymin=0;
+        private double Ymax=1.0;
+        private boolean status;
+        private Color clr;
+        private Color gClr;
 
         Plotter(ButtonPanel P){
             try{
